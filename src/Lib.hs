@@ -1,0 +1,23 @@
+module Lib
+  ( randomQuote
+  , quotes
+  )
+where
+import           System.Random
+
+
+randomQuote :: IO String
+randomQuote = atRandIndex quotes
+
+quotes :: [String]
+quotes =
+  [ "Hey you, you're finally awake"                             -- Skyrim
+  , "Ah shit, here we go again"                                 -- GTA San Andreas
+  , "It’s a-me, Mario!"                                         -- Assassin's Creed II
+  , "Nothing is more BADASS than treating a woman with RESPECT" -- Borderlands 2
+  , "FINISH HIM"                                                -- Mortal Kombat
+  , "Nothing is true, everything is permitted"                  -- Assassin's creed
+  ]
+
+atRandIndex :: [a] -> IO a
+atRandIndex l = (l !!) <$> randomRIO (0, length l - 1)

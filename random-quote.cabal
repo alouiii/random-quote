@@ -1,0 +1,68 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: bed82b212e7c75e1203d98cf98764db566787cf75f7b5a2c2bb969f212e7cafe
+
+name:           random-quote
+version:        0.0.1
+description:    Please see the README on GitHub at <https://github.com/TheMC47/random-quote>
+homepage:       https://github.com/TheMC47/random-quote#readme
+bug-reports:    https://github.com/TheMC47/random-quote/issues
+author:         Yecine Megdiche
+maintainer:     yecine.megdiche@gmail.com
+copyright:      2020 Yecine Megdiche
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/TheMC47/random-quote
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_random_quote
+  hs-source-dirs:
+      src
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , random
+  default-language: Haskell2010
+
+executable random-quote
+  main-is: Main.hs
+  other-modules:
+      Paths_random_quote
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , random
+    , random-quote
+  default-language: Haskell2010
+
+test-suite random-quote-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_random_quote
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , random
+    , random-quote
+  default-language: Haskell2010
