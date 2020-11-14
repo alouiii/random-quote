@@ -15,6 +15,7 @@ quotes =
   , "Ah shit, here we go again"                                 -- GTA San Andreas
   , "It’s a-me, Mario!"                                         -- Assassin's Creed II
   , "Nothing is more BADASS than treating a woman with RESPECT" -- Borderlands 2
+  , "Counter terrorists win"                                    -- Counter Strike
   , "FINISH HIM"                                                -- Mortal Kombat
   , "Nothing is true, everything is permitted"                  -- Assassin's creed
   ]
