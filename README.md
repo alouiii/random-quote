@@ -29,5 +29,8 @@ If you want to be greeted by the wise [cow](https://en.wikipedia.org/wiki/Cowsay
 # Support
 If you encounter a problem, want to ask for help or want to suggest a feature, feel free to [open an issue](https://github.com/TheMC47/random-quote/issues).
 
+# Contributing
+You like random-quote and want to help make it better? Congratulations on being awesome! Make sure you go through the [contribution guide](CONTRIBUTING.md). Documentation, tests, and ideas are always welcome!
+
 # License
 random-quote is licensed under the [MIT license](LICENSE).
