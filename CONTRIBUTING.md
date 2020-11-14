@@ -6,6 +6,10 @@ You can contribute by opening an [issue](https://github.com/TheMC47/random-quote
 a bug or request a feature; or you can  add code, documentation, and cool ideas through a  [pull request](#pull-requests-guidelines)! Make sure 
 you've also read the [code of conduct](CODE_OF_CONDUCT.md)
 
+## "Pull requests? Code style? Haskell? I just want to add a quote"
+You're in luck! Checkout this [guide](https://github.com/TheMC47/random-quote/issues/3) on how to do just that. Note that the quotes added must follow the code
+of conduct.
+
 ## Issues guidelines
 If you want to open a new issues, you'll be prompted to choose a template, depending on the nature of the issue. This
 is supposed to give you a general idea of what's expected to be in the issue, it's not a hard rule! 
