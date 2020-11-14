@@ -18,6 +18,7 @@ quotes =
   , "Counter terrorists win"                                    -- Counter Strike
   , "FINISH HIM"                                                -- Mortal Kombat
   , "Nothing is true, everything is permitted"                  -- Assassin's creed
+  , "Waka Waka Waka"                                            -- Pacman
   ]
 
 atRandIndex :: [a] -> IO a
