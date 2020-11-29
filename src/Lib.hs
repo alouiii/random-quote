@@ -20,6 +20,7 @@ quotes =
   , "Nothing is true, everything is permitted"                  -- Assassin's creed
   , "Waka Waka Waka"                                            -- Pacman
   , "There are better places to take a nap than on the ground, you know?" -- Fire Emblem Awakening
+  , "Your god protected me, coz I forgot the charger. The charger your god" -- Mr Ridha
   ]
 
 atRandIndex :: [a] -> IO a
